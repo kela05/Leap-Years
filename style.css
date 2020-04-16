@@ -18,7 +18,7 @@ body {
 h1 {
     letter-spacing: 0.2em;
     font-family: sans-serif;
-    padding: 0 40px;
+    padding: 0 40px;    text-align: center;
 }
 
 span {
@@ -50,4 +50,20 @@ hr {
     width: 400px;
     background-color: rgb(139, 137, 137);
     color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+    hr {
+        display: none;
+    }
+
+    span {
+
+        display: none;
+    }
+
+    #leapYears li {
+        width: 220px;
+        text-align: center;
+    }
 }
