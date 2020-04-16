@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightgray;
+}
+
+.header {
+    height: 60px;
+    background: black;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    letter-spacing: 0.2em;
+    font-family: sans-serif;
+    padding: 0 40px;
+}
+
+span {
+    height: 6px;
+    width: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+hr {
+    width: 300px;
+}
+
+#leapYears {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#leapYears li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid rgb(139, 137, 137);
+    margin: 10px;
+    width: 400px;
+    background-color: rgb(139, 137, 137);
+    color: #fff;
+}
